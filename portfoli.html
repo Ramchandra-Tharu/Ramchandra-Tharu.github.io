@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramchandra Tharu</title>
+    <link rel="shortcut icon" type="x-icon" href ="blogo.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5cba35d734.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+        </style>
+        
+</head>
+<body class="body">
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="mylogo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header" style="cursor: url(./img/cursor/house.svg), auto;">Home</a></li>
+                    <li><a href="#about" style="cursor: url(./img/cursor/me.svg), auto;">About</a></li>
+                    <li><a href="#service" style="cursor: url(./img/cursor/service.svg), auto;">Services</a></li>
+                    <li><a href="#portfolio" style="cursor: url(./img/cursor/portfolio.svg), auto;">Portfolio</a></li>
+                    <li><a href="#contact" style="cursor: url(./img/cursor/contact.svg), auto;">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <br> I Am <span href ="#about" >Ramchandra Tharu</span><br> From India</h1><br>
+                <a href="resume.pdf" download class="btn btn1" style="cursor: url(./img/cursor/resume.svg), auto;">Download Resume</a>
+                
+            </div>
+        </div>
+    </div>
+    <!-- ---------------About--------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="profile.png" style="cursor: url(./img/cursor/me.svg), auto;">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <ul> <li>Hey there, I'm Ramchandra Tharu, a Full Stack Web Developer from the bustling city of Bhopal in India.</li> <br>
+                        <li>I'm currently pursuing my BCA degree from LNCT University, where I've honed my skills in HTML, CSS, JavaScript, Python,C and C++ to craft stunning web applications that are both functional and stylish.</li> <br>
+                        <li>When I'm not coding up a storm, I enjoy exploring the world of cybersecurity and tackling complex DSA problems that challenge my problem-solving skills.</li> <br>
+                        <li>My passion for creating beautiful websites has also led me to learn about UI/UX design, which allows me to create interfaces that are both visually pleasing and intuitive to use.</li> <br>
+                        <li>In my free time, you'll find me curled up with a good book, wandering through the streets of a new city, or sipping coffee at a local cafe.</li> <br>
+                        <li>Thanks for stopping by my portfolio website! If you're interested in collaborating on a project or have any questions, feel free to reach out to me.</li></ul> <br>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"  onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Desigining Web/App interfeces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>Learner</li>
+                            
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-2025</span><br>BCA from LNCT bhopal</li>
+                            <li><span>2019-2021</span><br>completed 10+2 From Nepal</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------------------Services-------------------------------- -->
+
+
+    <div id="service">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="service-list">
+                <div style="cursor: url(./img/cursor/webd.svg), auto;">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I love this Work. Web design is so much fun for me and i am working on so many projects right now.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div style="cursor: url(./img/cursor/uiux.svg), auto;">
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>working with UI/Ux is fun hoosing right color is heptic but i somehow manage to make the best desin.</p>
+                <a href="#">Learn More</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ------------------------portfolio--------------------- -->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Work1.png" >
+                <div class="layer">
+                <h3>Woofy Pet Shop</h3>
+                <p>The website is a e-commerce website For Pet essentials i am working on it</p>
+                
+            </div>
+            </div>
+            <div class="work">
+                <img src="Work2.png" alt="">
+                <div class="layer">
+                    <h3>prinac Solution</h3>
+                    <p>The website is a Static website it was made for a private company to show what services the provide.</p>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="work3.png" alt="">
+                <div class="layer">
+                    <h3>Login Page</h3>
+                    
+                   
+            </div>
+            
+            </div>
+        </div>
+        <div class="see">
+        <a href="https://github.com/Ramchandra-Tharu" target="_blank" class="btn" style="cursor: url(./img/cursor/seemore.svg), auto;">See More</a>
+        </div>
+    </div>
+ </div> <br>
+
+
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subttle">Contact Me</h1>
+                <p style="cursor: url(./img/cursor/mail.svg), auto;"><i class="fa-solid fa-paper-plane"></i><a href="mailto:ramchandrachaudhary2003@gmail.com">ramchandrachaudhary2003@gmail.com</a></p>
+                <p style="cursor: url(./img/cursor/call.svg), auto;"><i class="fa-solid fa-phone"></i><a href="tel:7772841392">+91 7772841392</a></p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/ramachandra-tharu" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.facebook.com/sirzanchaudhary143" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/Ramchandra-Tharu" target="_blank" ><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/sirzanchaudhary/" target="_blank" ><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""
+
+                </div>
+                <a href="resume.pdf" download class="btn btn1">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input class="hover" type="text" name="Name" placeholder="Your Name" required>
+                    <input class="hover" type="text" name="email" placeholder="Your Email" required>
+                    <textarea class="hover" name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn1">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>  
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Ramchandra. Made with <i class="fa-solid fa-heart"></i> by Ramchandra Tharu</p>
+    </div>
+ </div>
+    
+
+
+    <script src="main.js"></script>
+</body>
+</html>
